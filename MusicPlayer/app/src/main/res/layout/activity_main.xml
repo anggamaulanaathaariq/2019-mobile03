@@ -45,12 +45,10 @@
         app:layout_constraintTop_toTopOf="@+id/imageView2"
         app:srcCompat="@drawable/next_song_image" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="57dp"
-        android:layout_height="14dp"
-        android:ems="10"
-        android:inputType="textPersonName"
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Wiz Khalifa"
         android:textColor="@color/colorTerang"
         app:layout_constraintEnd_toEndOf="parent"
